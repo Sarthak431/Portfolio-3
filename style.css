@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom CSS for Portfolio */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.dark-mode .github-icon {
+    filter: invert(1);
+  }
+
+
+.btn-black {
+  background-color: #333333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem; /* Adjust the font size to make it bigger */
+}
+.btn-black:hover {
+  background-color: #160000;
+  color: #fff;
+
+}
+
+/* Add the following CSS to your style.css */
+.btn-dark-mode {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 2rem;
+}
+
+.dark-mode .btn-dark-mode {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.dark-mode .btn-dark-mode:hover {
+  background-color: #0041e4;
+  color: #fff;
+  border: none;
+}
+
+
+/* Main container styles */
+.container {
+  max-width: 960px;
+}
+
+/* Header styles */
+h1.display-4 {
+  color: #007bff;
+}
+
+h3.font-italic {
+  color: #777;
+}
+
+/* Image styles */
+.img-fluid {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section heading styles */
+h2 {
+  color: #007bff;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::before {
+  content: "\2022";
+  color: #007bff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Links styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact icons styles */
+.col-md-12.text-center a img {
+  width: 45px;
+  height: 45px;
+  margin: 0 5px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #323232;
+  color: #fff;
+}
+
+body.dark-mode .container {
+  background-color: #130b0b;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+body.dark-mode h1.display-4 {
+  color: #007bff;
+}
+
+body.dark-mode h3.font-italic {
+  color: #bbb;
+}
+
+body.dark-mode ul li::before {
+  color: #fff;
+}
+
+body.dark-mode a {
+  color: #1e90ff;
+}
+
+body.dark-mode a:hover {
+  color: #fff;
+}
